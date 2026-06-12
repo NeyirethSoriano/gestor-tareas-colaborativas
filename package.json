@@ -1,0 +1,34 @@
+{
+  "name": "gestor-tareas-colaborativas",
+  "version": "1.0.0",
+  "description": "Aplicación web CRUD para gestión de proyectos y tareas colaborativas con base de datos en línea",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "1.6.0",
+    "bcryptjs": "2.4.3",
+    "dotenv": "16.3.1",
+    "jsonwebtoken": "9.0.2",
+    "mongodb": "^7.3.0",
+    "mongoose": "8.0.0",
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.2",
+    "@types/jsonwebtoken": "9.0.3",
+    "@types/mongoose": "5.11.97",
+    "@types/node": "20.3.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "eslint": "8.44.0",
+    "eslint-config-next": "14.0.0",
+    "typescript": "5.2.2"
+  }
+}
